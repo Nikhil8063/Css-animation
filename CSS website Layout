@@ -1,0 +1,224 @@
+<html lang="en">
+<head>
+      <title> CSS Website Layout</title>
+     <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Satisfy&display=swap" rel="stylesheet">  
+ 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+ <body >
+   <div class="topnav">
+    
+       <a href="#">Link</a>
+      <a href="#">Link</a>
+      <a href="#">Link</a>
+    </div>
+     
+    <div class="header">
+      <h1> MY EDUCATION</h1>
+        <img src="https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg?auto=compress&cs=tinysrgb&w=600">
+   
+     
+    </div>
+     
+    <div class="container  mt-5">
+        <div class="row">
+     
+    <div class="col-sm-4">  
+      <h3>MSC</h3>
+            <p> I finished Msc in the department of Material science and Nano technology at Yogi Vemana University,with 70% aggregate in the Year of 2021.
+          </p>
+    </div> 
+     
+     
+      
+    <div class="col-sm-4">  
+       <h3> DEGREE</h3>
+          <p>  I completed Degree in the Stream of Computer Science at SKSC Degree college,proddatur with 70% aggregate in the Year of 2019.
+    </div> 
+     
+     <div class="col-sm-4">  
+      <h3>INTER</h3>
+          <p> I completed Intermediate in MPC at SCNR Junior college,proddatur with 60% aggregate in the Year of 2016.<br>
+         </p>
+    </div> 
+     
+   
+ <div class="row">   
+    
+     <div class ="column side">
+         <h3>SSC</h3>
+          <p> My Schooling was ABMHSchool,year Of Pass-2013 with GPA:7.5  
+    </div> 
+    
+           
+ 
+        <div class ="column middle">
+        <h2>PROJECT</h2>
+           <center> 
+       <img src="https://images.pexels.com/photos/1461974/pexels-photo-1461974.jpeg?auto=compress&cs=tinysrgb&w=600" width=80%></center>
+     <br>
+            <p>The Eiffel Tower stands on four lattice-girder piers that taper inward and join to form a single large vertical tower. As they curve inward, the piers are connected to each other by networks of girders at two levels that afford viewing platforms for tourists. By contrast, the four semicircular arches at the tower’s base are purely aesthetic elements that serve no structural function. Because of their unique shape, which was dictated partly by engineering considerations but also partly by Eiffel’s artistic sense, the piers required elevators to ascend on a curve; the glass-cage machines designed by the Otis Elevator Company of the United States became one of the principal features of the building, helping establish it as one of the world’s premier tourist attractions.
+
+The tower itself is 300 metres (984 feet) high. It rests on a base that is 5 metres (17 feet) high, and a television antenna atop the tower gives it a total elevation of 330 metres (1,083 feet). The Eiffel Tower was the tallest structure in the world until the topping off of the Chrysler Building in New York City in 1929. </p>
+     
+     </div>
+     
+     
+    <div class="row">   
+    
+   <div class ="column side">
+         <h3>SKILLS</h3>
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtBOro2QWl8NnflmBqjyD0nJ2vfL3CdHYcXw&usqp=CAU ">
+    </div> 
+    
+       <div class="col-sm-4">  
+      <h3>HOBBIES</h3>
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBGqLkuBddYsge6QnWzANqRteUF10FU-DZMA&usqp=CAU ">    
+    </div> 
+          
+  
+   
+      <div class=" column side mt-2">
+         <h2>CONTACT</h2>
+         <ul>
+         <li>contact no: 7780518063</li>
+                <li> Mail: pathiapti8063@gmail.com</li>
+                 <li>facebook: Nikhil Kumar</li> 
+                 <li>instagram: Viart nikhil</li>
+                </ul>    
+        </div>
+     
+     
+     
+     
+ <center> 
+   <div>
+      <a href="https://instagram.com/virat_nikhil_143?utm_source=qr&igshid=ZTM4ZDRiNzUwMw==" class="fa fa-instagram"></a>
+      <a href="https://youtube.com/@nikhilkumar-vc1qw?si=o-JxTwoPO3NR_pjU  " class="fa fa-youtube " class="fa fa-youtube"></a>
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-google"></a>
+      <a href="#" class="fa fa-linkedin"></a>
+    
+     
+    </div>    
+   </center> 
+  
+     
+     
+     <div class="footer">
+      <p>copyRights@2023</p>      
+   </div>
+</div>
+   
+          
+               
+            
+            
+            
+ </body>            
+<style> 
+      .topnav{
+             text-decoration: none;
+          }      
+      .topnav a:hover{
+          background-color: #ddd;
+          color: white;
+         }
+          
+      .header{
+              background-color:#abbede;
+              padding: 5px;
+              text-align: center;
+          }   
+      .image{
+          width:50%;
+          height:50%;
+      }
+      .column{
+          float:left;
+          padding:20px;
+      }  
+      
+      .column.side{
+                 width:35%;
+     }
+     .column.middle{
+                 width:50%;
+               
+    }           
+      .row::after{
+          content: "";
+          display: table;
+          clear: both;
+      }  
+      @media screen and(max-width:600px){
+          .column.side, .column.middle{
+              width:100%;
+          }
+      } 
+    .fa{
+            padding:20px;
+            font-size:50px;
+            width: 100px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+            border-radius: 50%;
+        }
+        .fa:hover{
+            opacity: 0.7;
+        }
+         
+        .fa-WhatsApp{
+            background:#25D366;
+            color: white;
+        }
+        
+        .fa-facebook{
+            background: #385998;
+            color: white;
+        }
+       .fa-twitter{
+            background: #55ACEE;
+            color: white;
+        }
+       .fa-google{
+            background:#dd4b39 ;
+            color: white;
+        }
+       .fa-linkedin{
+            background: #007bb5;
+            color: white;
+        }
+       .fa-youtube{
+            background: #bb0000;
+            color: white;
+        }
+       .fa-instagram{
+            background:#f09433;
+            color: white;
+        }
+        
+    .footer{
+           padding: 0px;
+           text-align: center;
+           background:black;
+           margin-top: 20px;
+           color:white;
+       }
+    
+    
+            
+            
+            </style>   
+           
+</html>   
+    
+    
+
